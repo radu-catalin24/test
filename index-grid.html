@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/styling-grid.css">
+    <title>Autogedal</title>
+</head>
+
+<header>
+    <div class="header">
+        <div class="header__left--col">
+            <div class="header__hamburger">
+                <a href="index-list.html">
+                    <img src="svg/menu%202.svg"/>
+                </a>
+            </div>
+        </div>
+        <div class="header__logo">
+            <a href="index-list.html">
+                <img class="mobile-logo" src="svg/image%2022.svg"/>
+                <img class="desktop--logo" src="svg/image%201.svg"/>
+            </a>
+        </div>
+        <div class="header__search--desktop">
+            <input class="search--bar--desktop--input" type="text" placeholder="Caută tip produs și marca auto"/>
+            <select class="search--bar--desktop--sorter" id="sorter-searchbar-desktop">
+                <option value="rating">Categorii</option>
+                <option value="new">Cele mai noi</option>
+                <option value="price_asc">Pret crescator</option>
+                <option value="price_desc">Pret descrescator</option>
+            </select>
+        </div>
+        <div class="header__phoneholder--desktop">
+            <div class="col1">
+                <img src="svg/telephone-handle-silhouette%201.svg"/>
+            </div>
+            <div class="col2">
+                <span class="desktop--phone--text">Telefon comenzi</span>
+                <span>0745 80 59 90</span>
+            </div>
+        </div>
+        <div class="header__right--col">
+            <div class="header__account">
+                <a href="index-list.html">
+                    <img class="mobile--icon" src="svg/user%20(4)%201.svg"/>
+                    <img class="desktop--icon" src="svg/user%20(4)%201%20(1).svg"/>
+                </a>
+                <select class="header__account--desktop--sorter" id="sorter-account-desktop">
+                    <option value="rating">Contul meu</option>
+                    <option value="new">Cele mai noi</option>
+                    <option value="price_asc">Pret crescator</option>
+                    <option value="price_desc">Pret descrescator</option>
+                </select>
+                    <img class="header__account--desktop--sorter--icon" src="svg/next%203.svg"/>
+            </div>
+            <div class="header__minicart">
+                <div class="header__minicart--label">
+                    <span class="content">12</span>
+                </div>
+                <a href="index-list.html">
+                    <img class="mobile--icon" src="svg/shopping-cart%201.svg"/>
+                    <img class="desktop--icon" src="svg/shopping-cart%201%20(1).svg"/>
+                </a>
+            </div>
+            <span class="header__minicart--desktop--text">Coșul meu</span>
+        </div>
+    </div>
+    <div class="search">
+        <input class="search--bar" type="text" placeholder="Caută tip produs și marca auto"/>
+    </div>
+    <div class="breadcrumbs">
+        <ul class="breadcrumbs__items">
+            <li class="breadcrumbs__items--main">
+                <span>Acasa</span>
+            </li>
+            <li class="breadcrumbs__items--secondary">
+                <span>Carlige de remorcare</span>
+            </li>
+        </ul>
+        <div class="page-title">
+            <h1 class="page-title--text">Oferta Carlige de remorcare (7436 produse)</h1>
+        </div>
+    </div>
+</header>
+
+<body>
+    <div class="main">
+        <div class="filter-button">
+            <span> Aplica filtre</span>
+        </div>
+        <div class="filter__button__desktop">
+            <div class="filter__button__desktop--title">
+             <img class="filter__button__desktop--icon" src="svg/filter-symbol.svg"/>
+             <span>Filtre</span>
+            </div>
+            <div class="filter__button__desktop__container">
+                <div class="filter__button__desktop__container--selected">
+                    <div class="filter__button__desktop__container--selected--title">
+                        <span>Filtre selectate</span>
+                    </div>
+                    <div class="selected--row1">
+                        <span class="selected--text">Producător:</span>
+                        <div class="box-item">
+                            <span>Junior</span>
+                        </div>
+                        <div class="box-item">
+                            <span>Lorem</span>
+                        </div>
+                    </div>
+                    <div class="selected--row2">
+                        <span class="selected--text">Volum:</span>
+                        <div class="box-item">
+                            <span>320</span>
+                        </div>
+                        <div class="box-item">
+                            <span>4600</span>
+                        </div>
+                    </div>
+                    <div class="selected--row3">
+                        <span class="selected--text">Nr. maxim snowboarduri:</span>
+                        <div class="box-item">
+                            <span>2</span>
+                        </div>
+                        <div class="box-item">
+                            <span>3</span>
+                        </div>
+                        <div class="box-item">
+                            <span>30</span>
+                        </div>
+                    </div>
+                    <div class="filter__button__desktop__container--selected--delete-button">
+                        <span>Șterge toate filtrele</span>
+                    </div>
+                </div>
+                <div class="filter__button__desktop__container--brands">
+                    <div class="filter__button__desktop__container--brands--title">
+                        <span>Mărci</span>
+                    </div>
+                    <input class="brands--search--bar" type="text" placeholder="Cautati marcă"/>
+                     <ul>
+                        <li>Audi</li>
+                        <li>BMW</li>
+                        <li>Citroen</li>
+                        <li>Chevrolet</li>
+                        <li>Dacia</li>
+                        <li>Ford</li>
+                        <li>Kia</li>
+                        <li>Mercedes</li>
+                        <li>Hyundai</li>
+                        </ul>
+                    <div class="brands--button">
+                        <a class="brands--button--text" href="#">Arată mai multe</a>
+                    </div>
+                </div>
+                <div class="filter__button__desktop__container--manufacturer">
+                    <div class="filter__button__desktop__container--manufacturer--title">
+                        <span>Producător</span>
+                    </div>
+                    <input class="manufacturer--search--bar" type="text" placeholder="Căutati producător"/>
+                    <ul>
+                        <li>Audi</li>
+                        <li>BMW</li>
+                        <li>Citroen</li>
+                        <li>Chevrolet</li>
+                        <li>Dacia</li>
+                    </ul>
+                    <div class="manufacturer--button">
+                        <a class="manufacturer--button--text" href="#">Arată mai multe</a>
+                    </div>
+                </div>
+                <div class="filter__button__desktop__container--price-range">
+                    <div class="filter__button__desktop__container--price-range--title">
+                        <span>Preț</span>
+                    </div>
+                    <div class="filter__button__desktop__container--price-range--slider">
+                        <div class="filter__button__desktop__container--price-range--slider-progress"></div>
+                    </div>
+                    <div class="filter__button__desktop__container--price-range--range-input">
+                        <input type="range" class="range-min" min="0" max="10000" value="285">
+                        <input type="range" class="range-max" min="0" max="10000" value="3834">
+                    </div>
+                    <div class="filter__button__desktop__container--price-range--field">
+                        <input type="number" class="input-min" value="285"><span>RON</span>
+                        <div class="separator">-</div>
+                        <input type="number" class="input-max" value="3834"><span>RON</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="toolbar">
+            <div class="toolbar__col__left">
+                <label class="sorter--label" for="sorter">Sortează după:</label>
+                    <select class="sorter--input" id="sorter">
+                         <option value="rating">Preț</option>
+                         <option value="new">Cele mai noi</option>
+                         <option value="price_asc">Pret crescator</option>
+                         <option value="price_desc">Pret descrescator</option>
+                    </select>
+                <div class="sorter--input--icon">
+                    <img src="svg/next-7.svg"/>
+                </div>
+            </div>
+            <div class="toolbar__col__right">
+                <div class="modes">
+                    <div class="modes--grid">
+                        <a class="grid-mode" href="index-grid.html">
+                         <img src="images/Th_large_font_awesome.svg"/>
+                        </a>
+                    </div>
+                    <div class="modes--list">
+                        <a class="list-mode" href="index-listv2.html">
+                            <img class="list-mode" src="images/Th_list_font_awesome%20list.svg"/>
+                         </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="products-wrapper">
+            <div class="product">
+                <div class="product--label">-27%</div>
+                    <div class="product--image">
+                        <img src="images/produs-optimized.png" alt="product"/>
+                    </div>
+                <div class="product--details">
+                    <div class="product--name">
+                        <span>Carlig remorcare Renault Twingo 2007-2014 tip demontabil automat AutoHak</span>
+                    </div>
+                    <div class="product--stock">
+                        <span>Disponibil în stoc</span>
+                    </div>
+                    <div class="product--delivery">
+                        <span>Livrare gratuită</span>
+                        <span class="delivery--term">1-2 zile</span>
+                    </div>
+                    <div class="price--action">
+                        <div class="prices">
+                            <span class="old-price">2711.<sup>00</sup><span class="space-after-sup"> RON</span></span>
+                            <span class="price">2640.<sup>00</sup> RON</span>
+                        </div>
+                        <div class="buy-button-main">
+                            <div class="buy-button-mobile">
+                                <button class="buy" type="submit"  title="Adauga in cos">
+                                 <a href="404">
+                                    <img class="buy-button-mobile-icon" src="svg/shopping-cart%202.svg" alt="cart"/>
+                                 </a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product--label">-27%</div>
+                <div class="product--image">
+                    <img src="images/produs-optimized.png" alt="product"/>
+                </div>
+                <div class="product--details">
+                    <div class="product--name">
+                        <span>Carlig remorcare Renault Twingo 2007-2014 tip demontabil automat AutoHak</span>
+                    </div>
+                    <div class="product--stock">
+                        <span>Disponibil în stoc</span>
+                    </div>
+                    <div class="product--delivery">
+                        <span>Livrare gratuită</span>
+                        <span class="delivery--term">1-2 zile</span>
+                    </div>
+                    <div class="price--action">
+                        <div class="prices">
+                            <span class="old-price">2711.<sup>00</sup><span class="space-after-sup"> RON</span></span>
+                            <span class="price">2640.<sup>00</sup> RON</span>
+                        </div>
+                        <div class="buy-button-main">
+                            <div class="buy-button-mobile">
+                                <button class="buy" type="submit"  title="Adauga in cos">
+                                    <a href="404">
+                                        <img class="buy-button-mobile-icon" src="svg/shopping-cart%202.svg" alt="cart"/>
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product--label">-27%</div>
+                <div class="product--image">
+                    <img src="images/produs-optimized.png" alt="product"/>
+                </div>
+                <div class="product--details">
+                    <div class="product--name">
+                        <span>Carlig remorcare Renault Twingo 2007-2014 tip demontabil automat AutoHak</span>
+                    </div>
+                    <div class="product--stock">
+                        <span>Disponibil în stoc</span>
+                    </div>
+                    <div class="product--delivery">
+                        <span>Livrare gratuită</span>
+                        <span class="delivery--term">1-2 zile</span>
+                    </div>
+                    <div class="price--action">
+                        <div class="prices">
+                            <span class="old-price">2711.<sup>00</sup><span class="space-after-sup"> RON</span></span>
+                            <span class="price">2640.<sup>00</sup> RON</span>
+                        </div>
+                        <div class="buy-button-main">
+                            <div class="buy-button-mobile">
+                                <button class="buy" type="submit"  title="Adauga in cos">
+                                    <a href="404">
+                                        <img class="buy-button-mobile-icon" src="svg/shopping-cart%202.svg" alt="cart"/>
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product--label">-27%</div>
+                <div class="product--image">
+                    <img src="images/produs-optimized.png" alt="product"/>
+                </div>
+                <div class="product--details">
+                    <div class="product--name">
+                        <span>Carlig remorcare Renault Twingo 2007-2014 tip demontabil automat AutoHak</span>
+                    </div>
+                    <div class="product--stock">
+                        <span>Disponibil în stoc</span>
+                    </div>
+                    <div class="product--delivery">
+                        <span>Livrare gratuită</span>
+                        <span class="delivery--term">1-2 zile</span>
+                    </div>
+                    <div class="price--action">
+                        <div class="prices">
+                            <span class="old-price">2711.<sup>00</sup><span class="space-after-sup"> RON</span></span>
+                            <span class="price">2640.<sup>00</sup> RON</span>
+                        </div>
+                        <div class="buy-button-main">
+                            <div class="buy-button-mobile">
+                                <button class="buy" type="submit"  title="Adauga in cos">
+                                    <a href="404">
+                                        <img class="buy-button-mobile-icon" src="svg/shopping-cart%202.svg" alt="cart"/>
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product--label">-27%</div>
+                <div class="product--image">
+                    <img src="images/produs-optimized.png" alt="product"/>
+                </div>
+                <div class="product--details">
+                    <div class="product--name">
+                        <span>Carlig remorcare Renault Twingo 2007-2014 tip demontabil automat AutoHak</span>
+                    </div>
+                    <div class="product--stock">
+                        <span>Disponibil în stoc</span>
+                    </div>
+                    <div class="product--delivery">
+                        <span>Livrare gratuită</span>
+                        <span class="delivery--term">1-2 zile</span>
+                    </div>
+                    <div class="price--action">
+                        <div class="prices">
+                            <span class="old-price">2711.<sup>00</sup><span class="space-after-sup"> RON</span></span>
+                            <span class="price">2640.<sup>00</sup> RON</span>
+                        </div>
+                        <div class="buy-button-main">
+                            <div class="buy-button-mobile">
+                                <button class="buy" type="submit"  title="Adauga in cos">
+                                    <a href="404">
+                                        <img class="buy-button-mobile-icon" src="svg/shopping-cart%202.svg" alt="cart"/>
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product--label">-27%</div>
+                <div class="product--image">
+                    <img src="images/produs-optimized.png" alt="product"/>
+                </div>
+                <div class="product--details">
+                    <div class="product--name">
+                        <span>Carlig remorcare Renault Twingo 2007-2014 tip demontabil automat AutoHak</span>
+                    </div>
+                    <div class="product--stock">
+                        <span>Disponibil în stoc</span>
+                    </div>
+                    <div class="product--delivery">
+                        <span>Livrare gratuită</span>
+                        <span class="delivery--term">1-2 zile</span>
+                    </div>
+                    <div class="price--action">
+                        <div class="prices">
+                            <span class="old-price">2711.<sup>00</sup><span class="space-after-sup"> RON</span></span>
+                            <span class="price">2640.<sup>00</sup> RON</span>
+                        </div>
+                        <div class="buy-button-main">
+                            <div class="buy-button-mobile">
+                                <button class="buy" type="submit"  title="Adauga in cos">
+                                    <a href="404">
+                                        <img class="buy-button-mobile-icon" src="svg/shopping-cart%202.svg" alt="cart"/>
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product--label">-27%</div>
+                <div class="product--image">
+                    <img src="images/produs-optimized.png" alt="product"/>
+                </div>
+                <div class="product--details">
+                    <div class="product--name">
+                        <span>Carlig remorcare Renault Twingo 2007-2014 tip demontabil automat AutoHak</span>
+                    </div>
+                    <div class="product--stock">
+                        <span>Disponibil în stoc</span>
+                    </div>
+                    <div class="product--delivery">
+                        <span>Livrare gratuită</span>
+                        <span class="delivery--term">1-2 zile</span>
+                    </div>
+                    <div class="price--action">
+                        <div class="prices">
+                            <span class="old-price">2711.<sup>00</sup><span class="space-after-sup"> RON</span></span>
+                            <span class="price">2640.<sup>00</sup> RON</span>
+                        </div>
+                        <div class="buy-button-main">
+                            <div class="buy-button-mobile">
+                                <button class="buy" type="submit"  title="Adauga in cos">
+                                    <a href="404">
+                                        <img class="buy-button-mobile-icon" src="svg/shopping-cart%202.svg" alt="cart"/>
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product--label">-27%</div>
+                <div class="product--image">
+                    <img src="images/produs-optimized.png" alt="product"/>
+                </div>
+                <div class="product--details">
+                    <div class="product--name">
+                        <span>Carlig remorcare Renault Twingo 2007-2014 tip demontabil automat AutoHak</span>
+                    </div>
+                    <div class="product--stock">
+                        <span>Disponibil în stoc</span>
+                    </div>
+                    <div class="product--delivery">
+                        <span>Livrare gratuită</span>
+                        <span class="delivery--term">1-2 zile</span>
+                    </div>
+                    <div class="price--action">
+                        <div class="prices">
+                            <span class="old-price">2711.<sup>00</sup><span class="space-after-sup"> RON</span></span>
+                            <span class="price">2640.<sup>00</sup> RON</span>
+                        </div>
+                        <div class="buy-button-main">
+                            <div class="buy-button-mobile">
+                                <button class="buy" type="submit"  title="Adauga in cos">
+                                    <a href="404">
+                                        <img class="buy-button-mobile-icon" src="svg/shopping-cart%202.svg" alt="cart"/>
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product--label">-27%</div>
+                <div class="product--image">
+                    <img src="images/produs-optimized.png" alt="product"/>
+                </div>
+                <div class="product--details">
+                    <div class="product--name">
+                        <span>Carlig remorcare Renault Twingo 2007-2014 tip demontabil automat AutoHak</span>
+                    </div>
+                    <div class="product--stock">
+                        <span>Disponibil în stoc</span>
+                    </div>
+                    <div class="product--delivery">
+                        <span>Livrare gratuită</span>
+                        <span class="delivery--term">1-2 zile</span>
+                    </div>
+                    <div class="price--action">
+                        <div class="prices">
+                            <span class="old-price">2711.<sup>00</sup><span class="space-after-sup"> RON</span></span>
+                            <span class="price">2640.<sup>00</sup> RON</span>
+                        </div>
+                        <div class="buy-button-main">
+                            <div class="buy-button-mobile">
+                                <button class="buy" type="submit"  title="Adauga in cos">
+                                    <a href="404">
+                                        <img class="buy-button-mobile-icon" src="svg/shopping-cart%202.svg" alt="cart"/>
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product--label">-27%</div>
+                <div class="product--image">
+                    <img src="images/produs-optimized.png" alt="product"/>
+                </div>
+                <div class="product--details">
+                    <div class="product--name">
+                        <span>Carlig remorcare Renault Twingo 2007-2014 tip demontabil automat AutoHak</span>
+                    </div>
+                    <div class="product--stock">
+                        <span>Disponibil în stoc</span>
+                    </div>
+                    <div class="product--delivery">
+                        <span>Livrare gratuită</span>
+                        <span class="delivery--term">1-2 zile</span>
+                    </div>
+                    <div class="price--action">
+                        <div class="prices">
+                            <span class="old-price">2711.<sup>00</sup><span class="space-after-sup"> RON</span></span>
+                            <span class="price">2640.<sup>00</sup> RON</span>
+                        </div>
+                        <div class="buy-button-main">
+                            <div class="buy-button-mobile">
+                                <button class="buy" type="submit"  title="Adauga in cos">
+                                    <a href="404">
+                                        <img class="buy-button-mobile-icon" src="svg/shopping-cart%202.svg" alt="cart"/>
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product--label">-27%</div>
+                <div class="product--image">
+                    <img src="images/produs-optimized.png" alt="product"/>
+                </div>
+                <div class="product--details">
+                    <div class="product--name">
+                        <span>Carlig remorcare Renault Twingo 2007-2014 tip demontabil automat AutoHak</span>
+                    </div>
+                    <div class="product--stock">
+                        <span>Disponibil în stoc</span>
+                    </div>
+                    <div class="product--delivery">
+                        <span>Livrare gratuită</span>
+                        <span class="delivery--term">1-2 zile</span>
+                    </div>
+                    <div class="price--action">
+                        <div class="prices">
+                            <span class="old-price">2711.<sup>00</sup><span class="space-after-sup"> RON</span></span>
+                            <span class="price">2640.<sup>00</sup> RON</span>
+                        </div>
+                        <div class="buy-button-main">
+                            <div class="buy-button-mobile">
+                                <button class="buy" type="submit"  title="Adauga in cos">
+                                    <a href="404">
+                                        <img class="buy-button-mobile-icon" src="svg/shopping-cart%202.svg" alt="cart"/>
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product--label">-27%</div>
+                <div class="product--image">
+                    <img src="images/produs-optimized.png" alt="product"/>
+                </div>
+                <div class="product--details">
+                    <div class="product--name">
+                        <span>Carlig remorcare Renault Twingo 2007-2014 tip demontabil automat AutoHak</span>
+                    </div>
+                    <div class="product--stock">
+                        <span>Disponibil în stoc</span>
+                    </div>
+                    <div class="product--delivery">
+                        <span>Livrare gratuită</span>
+                        <span class="delivery--term">1-2 zile</span>
+                    </div>
+                    <div class="price--action">
+                        <div class="prices">
+                            <span class="old-price">2711.<sup>00</sup><span class="space-after-sup"> RON</span></span>
+                            <span class="price">2640.<sup>00</sup> RON</span>
+                        </div>
+                        <div class="buy-button-main">
+                            <div class="buy-button-mobile">
+                                <button class="buy" type="submit"  title="Adauga in cos">
+                                    <a href="404">
+                                        <img class="buy-button-mobile-icon" src="svg/shopping-cart%202.svg" alt="cart"/>
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pages">
+            <ul class="pages-items">
+                <li class="page-item-prev">
+                    <a href="index-list.html">
+                        <img src="svg/next%209.svg"/>
+                    </a>
+                </li>
+                <li class="page-item-curr">
+                    <a href="index-list.html">
+                        <span>1</span>
+                    </a>
+                </li>
+                <li class="page-item">
+                    <a href="index-list.html">
+                        <span>2</span>
+                    </a>
+                </li>
+                <li class="page-item">
+                    <a href="index-list.html">
+                        <span>3</span>
+                    </a>
+                </li>
+                <li class="page-item">
+                    <a href="index-list.html">
+                        <span>4</span>
+                    </a>
+                </li>
+                <li class="page-item-dot">
+                    <a href="index-list.html">
+                        <span>...</span>
+                    </a>
+                </li>
+                <li class="page-item">
+                    <a href="index-list.html">
+                        <span>21</span>
+                    </a>
+                </li>
+                <li class="page-item-next">
+                    <a href="index-list.html">
+                        <img src="svg/next%208.svg"/>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer__container__benefits">
+            <div class="footer__container__benefits--item">
+                <img class="benefit-icon" src="svg/Icon.svg" alt="truck"/>
+                <div class="text-area">
+                    <span class="text-area"><b>Transport</b> gratuit</span>
+                </div>
+            </div>
+            <div class="footer__container__benefits--item">
+                <img class="benefit-icon" src="svg/Icon%20(1).svg" alt="card"/>
+                <div class="text-area">
+                    <span class="text-area">3 rate <b>fără dobândă</b></span>
+                </div>
+            </div>
+            <div class="footer__container__benefits--item">
+                <img class="benefit-icon" src="svg/service%20(1)%201.svg" alt="car"/>
+                <div class="text-area">
+                    <span class="text-area">Montaj <b>autorizat</b></span>
+                </div>
+            </div>
+            <div class="footer__container__benefits--item">
+                <img class="benefit-icon" src="svg/shield%20(1)%201.svg" alt="shield"/>
+                <div class="text-area">
+                    <span class="text-area"><b>5 ani</b> garanție</span>
+                </div>
+            </div>
+            <div class="footer__container__benefits--item">
+                <img class="benefit-icon" src="svg/shield%20(1)%201.svg" alt="shield"/>
+                <div class="text-area">
+                    <span class="text-area"><b>5 ani</b> garanție</span>
+                </div>
+            </div>
+            <div class="footer__container__benefits--item">
+                <img class="benefit-icon" src="svg/shield%20(1)%201.svg" alt="shield"/>
+                <div class="text-area">
+                    <span class="text-area"><b>5 ani</b> garanție</span>
+                </div>
+            </div>
+        </div>
+        <div class="footer__container__text">
+            <span class="footer__container__text--item">Magazinul online AutoGedal comercializează <b>cârlige de remorcare</b> omologate RAR și EU, certificate ISO 9001. Din această categorie de produse, poți comanda cârlige auto Auto-Hak, Galia Hakpol, Thule și Westfalia Automotive. Gama noastră vastă de produse îți pune la dispoziție <b>cârlige auto semodemontabile, cârlige demontabile cu clemă, cârlige demontabile vertical cu cheie sau cârlige demontabile cu flanșă.</b>
+            </span>
+            <span class="footer__container__text--item--desktop">Magazinul online AutoGedal comercializează <b>cârlige de remorcare</b> omologate RAR și EU, certificate ISO 9001. Din această categorie de produse, poți comanda cârlige auto Auto-Hak, Galia Hakpol, Thule și Westfalia Automotive. Gama noastră vastă de produse îți pune la dispoziție <b>cârlige auto semodemontabile, cârlige demontabile cu clemă, cârlige demontabile vertical cu cheie sau cârlige demontabile cu flanșă.</b>
+                <br></br>
+                <b>Avantajele unui cârlig de remorcare</b>
+                <br></br>
+                Un <b>cârlig de remorcare</b> este un accesoriu auto cu numeroase avantaje, indiferent de marca mașinii pe care o conduci sau de caroseria acesteia. Dacă autoturismul tău este un SUV, un hatchback, un sedan, un estate, un cabrio sau un coupe, un <b>cui de remorcare</b> te va ajuta să ai parte de o experiență completă la volan. Cu ajutorul unui cârlig auto, poți tracta o <a href="#">remorcă</a> sau poți lua cu tine în vacanțe rulota. Un <b>cârlig de remorcare</b> este ideal și pentru montarea unui <a href="#">suport de biciclete</a> sau pentru situațiile în care vrei să tractezi un alt autoturism. Mai mult decât atât, montarea unui <b>cui de remorcare</b> te va ține departe de accidentele ușoare, în cazul unei ciocniri din spate.
+                <br></br>
+                Alege din oferta de <b>cârlige auto</b><a href="#"> AutoGedal</a> pe cel mai potrivit pentru mașina ta și beneficiază de toate avantajele prezentate mai sus.</span>
+            <div class="footer__container__text--item2">
+                <a class="a" href="#"><b>Citeste mai mult</b></a>
+            </div>
+        </div>
+    </div>
+</body>
+
+<footer>
+    <div class="footer__container">
+        <div class="footer__container--about-us">
+            <div class="footer__container--page--title">
+                <a class="a" href="index-list.html">
+                    <strong>Despre noi</strong>
+                </a>
+            </div>
+            <div class="links-active">
+                <ul>
+                    <li>
+                        <a class="a" href="despre-noi">
+                        <span>Despre noi</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="a" href="Contact">
+                            <span>Contact</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="a"  href="Blog">
+                            <span>Blog</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="a" href="ANPC-SOL">
+                            <span>ANPC / SOL</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__container--terms">
+            <div class="footer__container--page--title">
+                <a class="a" href="index-list.html">
+                    <strong>Termeni si conditii</strong>
+                </a>
+            </div>
+            <div class="links-active">
+                <ul>
+                    <li>
+                        <a class="a" href="#">
+                            <span>Cum cumpar?</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="a" href="#">
+                            <span>Cum platesc?</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="a" href="#">
+                            <span>Montaj autorizat</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="a" href="#">
+                            <span>Cere oferta orice piesa auto</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="a" href="#">
+                            <span>Termeni si conditii</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="a" href="#">
+                            <span>Politica de confidentialitate</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__container--category">
+            <div class="footer__container--page--title">
+                <a class="a"  href="index-list.html">
+                    <strong>Categorii</strong>
+                </a>
+            </div>
+            <div class="links-active">
+                <ul>
+                    <li>
+                        <a class="a" href="#">
+                            <span>Carlige de remorcare</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="a" href="#">
+                            <span>Covorase auto</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="a" href="#">
+                            <span>Tavite portbagaj</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="a"  href="#">
+                            <span>Scuturi Metalice Auto</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="a"  href="#">
+                            <span>Cutii Portbagaj</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="a"  href="#">
+                            <span>Suporturi biciclete</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="a" href="#">
+                            <span>Accesorii Remorcare</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__container--infocons">
+            <div class="footer-info">
+                <div class="icon-phone"></div>
+                <a href="index-list.html">074580990</a>
+            </div>
+            <div class="footer-info">
+                <div class="icon-mail"></div>
+                <a href="index-list.html">office@autogedal.ro   |   autogedal@gmail.com</a>
+            </div>
+            <div class="footer-info">
+                <div class="icon-address"></div>
+                <a href="index-list.html">Punct de lucru: Str. Grigore Plesoianu, Nr. llb, Craiova, Dolj</a>
+            </div>
+        </div>
+        <div class="fb-blog">
+            <img src="svg/Screenshot%202021-08-31%20at%2016.22%201.png"/>
+            <img class="img18" src="svg/image%2018.png"/>
+        </div>
+        <div class="footer__container--separator"></div>
+        <div class="payments-info">
+            <span>Plati online securizate</span>
+            <div class="payments-info-holder">
+                <img class="img17" src="svg/image%2017.svg"/>
+                <img class="img18" src="svg/image%2019.png"/>
+            </div>
+        </div>
+        <div class="footer__container--copyright">
+            <span class="copyright">Toate drepturile rezervate © 2013 - 2021 Auto Gedal Impex Srl (autogedal.ro)</span>
+        </div>
+    </div>
+</footer>
+</html>
