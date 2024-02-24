@@ -1879,7 +1879,7 @@ footer .copyright-container .desktop-tc {
     grid-column-start: 3;
     grid-row-start: 1;
     position: absolute;
-    align-self: center;
+    align-self: flex-end;
   }
   footer {
     padding: 100px 160px 100px 160px;
